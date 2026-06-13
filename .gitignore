@@ -14,6 +14,13 @@
 # vercel
 /.vercel
 
+# Obsolete nested repository. The Next.js app lives at the repository root.
+/masterflex/
+/.deploy-repo/
+
+# Local deployment helper
+/ΑΝΕΒΑΣΜΑ ΔΙΟΡΘΩΣΗΣ VERCEL.bat
+
 # production
 /build
 /dist
