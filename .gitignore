@@ -10,6 +10,7 @@
 /.runtime
 /.pw-browsers
 /masterflex-*.png
+/theme-*.png
 
 # vercel
 /.vercel
@@ -17,9 +18,11 @@
 # Obsolete nested repository. The Next.js app lives at the repository root.
 /masterflex/
 /.deploy-repo/
+/.push-repo/
 
 # Local deployment helper
 /ΑΝΕΒΑΣΜΑ ΔΙΟΡΘΩΣΗΣ VERCEL.bat
+/UPLOAD-TO-GITHUB.cmd
 
 # production
 /build
@@ -39,6 +42,7 @@ Thumbs.db
 
 # logs
 *.log
+github-upload.log
 server.log
 npm-debug.log*
 yarn-debug.log*

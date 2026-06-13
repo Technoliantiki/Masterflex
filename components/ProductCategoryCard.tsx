@@ -6,7 +6,7 @@ import { t } from "@/lib/utils";
 
 export function ProductCategoryCard({ category, locale }: { category: Category; locale: Locale }) {
   return (
-    <Link href={`/${locale}/products/${category.slug}`} className="group panel relative block overflow-hidden p-7 transition duration-300 hover:-translate-y-1 hover:border-white/25">
+    <Link href={`/${locale}/products/${category.slug}`} className="group panel relative block overflow-hidden p-7 transition duration-300 hover:-translate-y-1 hover:border-signal">
       <div className="flex items-start justify-between">
         <span className="font-display text-xs font-bold tracking-[0.2em]" style={{ color: category.accent }}>{category.code}</span>
         <ArrowUpRight className="text-white/25 transition group-hover:text-signal" size={20} />

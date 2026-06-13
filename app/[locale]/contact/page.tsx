@@ -28,7 +28,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               <div className="flex gap-4"><Mail className="shrink-0 text-signal" size={20} /><div className="text-sm leading-6 text-white/55">info@technoliantiki.gr</div></div>
             </div>
             <p className="mt-10 border-l border-flare pl-4 text-xs leading-6 text-white/35">{en ? "Launch note: confirm whether a dedicated Masterflex email address will replace the current company email." : "Σημείωση δημοσίευσης: να επιβεβαιωθεί αν θα χρησιμοποιηθεί νέο αποκλειστικό email Masterflex."}</p>
-            <div className="panel mt-10 flex min-h-52 items-center justify-center text-xs uppercase tracking-widest text-white/25">{en ? "Map integration placeholder" : "Θέση ενσωμάτωσης χάρτη"}</div>
+            <div className="panel mt-10 flex min-h-52 items-center justify-center bg-chalk text-xs font-semibold uppercase tracking-widest text-white/25">{en ? "Map integration placeholder" : "Θέση ενσωμάτωσης χάρτη"}</div>
           </div>
           <ContactForm locale={locale} />
         </div>

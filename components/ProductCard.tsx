@@ -7,8 +7,8 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
   const en = locale === "en";
   return (
     <article className="panel flex h-full flex-col overflow-hidden">
-      <div className="relative flex h-44 items-center justify-center overflow-hidden bg-gradient-to-br from-white/[.07] to-transparent">
-        <div className="h-28 w-28 rounded-full border-[18px] border-white/10 shadow-[0_0_40px_rgba(0,212,255,.08)]" />
+      <div className="relative flex h-44 items-center justify-center overflow-hidden border-b border-border bg-gradient-to-br from-softyellow/60 via-chalk to-white">
+        <div className="h-28 w-28 rounded-full border-[18px] border-carbon/10 shadow-[0_0_40px_rgba(217,169,0,.12)]" />
         <div className="absolute left-5 top-5 text-[10px] font-bold uppercase tracking-widest text-signal">{product.group}</div>
         <div className="absolute bottom-4 right-4 text-[9px] uppercase tracking-widest text-white/25">{en ? "Image to update" : "Ενημέρωση εικόνας"}</div>
       </div>

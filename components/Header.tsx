@@ -29,7 +29,7 @@ export function Header({ locale }: { locale: Locale }) {
         </Link>
         <nav className="hidden items-center gap-6 xl:flex">
           {links.map(([href, label]) => (
-            <Link key={href} href={`/${locale}/${href}`} className="text-xs font-semibold text-white/65 transition hover:text-white">
+            <Link key={href} href={`/${locale}/${href}`} className="text-xs font-semibold text-white/70 transition hover:text-signal">
               {label}
             </Link>
           ))}

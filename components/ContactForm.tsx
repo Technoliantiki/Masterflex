@@ -6,7 +6,7 @@ import type { Locale } from "@/lib/i18n";
 export function ContactForm({ locale, b2b = false }: { locale: Locale; b2b?: boolean }) {
   const en = locale === "en";
   const [sent, setSent] = useState(false);
-  const field = "w-full border border-white/10 bg-carbon px-4 py-3 text-sm outline-none transition placeholder:text-white/25 focus:border-signal";
+  const field = "w-full border border-border bg-chalk px-4 py-3 text-sm text-carbon outline-none transition placeholder:text-carbon/40 focus:border-flare focus:bg-white";
 
   if (sent) {
     return (

@@ -78,18 +78,18 @@ export function ProductFinder({ locale, compact = false }: { locale: Locale; com
           <div className="grid gap-3 lg:grid-cols-5">
             {options.map((option) => (
               <details key={option.key} className="group relative">
-                <summary className="flex cursor-pointer list-none items-center justify-between border border-white/10 bg-carbon px-4 py-3 text-sm font-semibold">
+                <summary className="flex cursor-pointer list-none items-center justify-between border border-industrial bg-carbon px-4 py-3 text-sm font-semibold text-white">
                   <span>{option.label}</span>
                   <span className="text-xs text-signal">{filters[option.key].length || "+"}</span>
                 </summary>
-                <div className="z-20 mt-1 max-h-64 w-full overflow-y-auto border border-white/10 bg-graphite p-2 lg:absolute">
+                <div className="z-20 mt-1 max-h-64 w-full overflow-y-auto border border-border bg-white p-2 shadow-xl lg:absolute">
                   {option.values.map((value) => (
-                    <label key={value} className="flex cursor-pointer items-center gap-3 px-2 py-2 text-xs text-white/60 hover:bg-white/5 hover:text-white">
+                    <label key={value} className="flex cursor-pointer items-center gap-3 px-2 py-2 text-xs text-carbon/70 hover:bg-softyellow hover:text-carbon">
                       <input
                         type="checkbox"
                         checked={filters[option.key].includes(value)}
                         onChange={() => toggle(option.key, value)}
-                        className="accent-cyan-400"
+                        className="accent-[#F5C400]"
                       />
                       {value}
                     </label>

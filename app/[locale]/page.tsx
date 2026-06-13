@@ -41,7 +41,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div className="container-wide">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
-              <div className="eyebrow !text-[#08778d]">{en ? "Product architecture" : "Δομή προϊόντων"}</div>
+              <div className="eyebrow !text-[#8A6C00]">{en ? "Product architecture" : "Δομή προϊόντων"}</div>
               <h2 className="section-title max-w-2xl">{en ? "One system. Every critical surface step." : "Ένα σύστημα. Κάθε κρίσιμο στάδιο επιφάνειας."}</h2>
             </div>
             <Link href={`/${locale}/products`} className="flex items-center gap-2 text-sm font-bold">{en ? "View all products" : "Όλα τα προϊόντα"} <ArrowRight size={16} /></Link>

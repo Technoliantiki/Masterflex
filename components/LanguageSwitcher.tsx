@@ -14,7 +14,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
     <div className="flex items-center gap-1 text-[11px] font-bold tracking-widest">
       <span className="text-signal">{locale.toUpperCase()}</span>
       <span className="text-white/25">/</span>
-      <Link className="text-white/55 transition hover:text-white" href={replaceLocale(pathname, other)}>
+      <Link className="text-white/60 transition hover:text-signal" href={replaceLocale(pathname, other)}>
         {other.toUpperCase()}
       </Link>
     </div>

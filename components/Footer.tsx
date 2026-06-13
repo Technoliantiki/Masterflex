@@ -5,7 +5,7 @@ import { BrandLogo } from "./BrandLogo";
 export function Footer({ locale }: { locale: Locale }) {
   const isEn = locale === "en";
   return (
-    <footer className="border-t border-white/10 bg-[#05080a]">
+    <footer className="border-t border-industrial bg-carbon">
       <div className="container-wide grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <BrandLogo className="h-16" />
@@ -16,10 +16,10 @@ export function Footer({ locale }: { locale: Locale }) {
         <div>
           <h3 className="text-xs font-bold uppercase tracking-widest text-white/35">{isEn ? "Navigate" : "Πλοήγηση"}</h3>
           <div className="mt-5 grid gap-3 text-sm text-white/65">
-            <Link href={`/${locale}/products`}>{isEn ? "Products" : "Προϊόντα"}</Link>
-            <Link href={`/${locale}/applications`}>{isEn ? "Applications" : "Εφαρμογές"}</Link>
-            <Link href={`/${locale}/technical-resources`}>{isEn ? "Abrasive knowledge" : "Τεχνική βιβλιοθήκη"}</Link>
-            <Link href={`/${locale}/b2b-cooperation`}>B2B</Link>
+            <Link className="transition hover:text-signal" href={`/${locale}/products`}>{isEn ? "Products" : "Προϊόντα"}</Link>
+            <Link className="transition hover:text-signal" href={`/${locale}/applications`}>{isEn ? "Applications" : "Εφαρμογές"}</Link>
+            <Link className="transition hover:text-signal" href={`/${locale}/technical-resources`}>{isEn ? "Abrasive knowledge" : "Τεχνική βιβλιοθήκη"}</Link>
+            <Link className="transition hover:text-signal" href={`/${locale}/b2b-cooperation`}>B2B</Link>
           </div>
         </div>
         <div>

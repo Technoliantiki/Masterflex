@@ -23,7 +23,7 @@ export const categories: Category[] = [
     materials: ["Steel", "Stainless Steel", "Aluminium", "Stone / Marble"],
     applications: ["Cutting", "Grinding", "Weld preparation"],
     groups: ["Cutting Discs", "Grinding Discs", "Grinding Wheels"],
-    accent: "#00d4ff",
+    accent: "#8A6C00",
   },
   {
     slug: "coated-abrasives",
@@ -36,7 +36,7 @@ export const categories: Category[] = [
     materials: ["Steel", "Stainless Steel", "Wood", "Paint / Varnish"],
     applications: ["Sanding", "Deburring", "Finishing"],
     groups: ["Flap Discs", "Fibre Discs", "Sanding Belts", "Abrasive Rolls"],
-    accent: "#2e7bff",
+    accent: "#8A6C00",
   },
   {
     slug: "surface-conditioning",
@@ -49,7 +49,7 @@ export const categories: Category[] = [
     materials: ["Stainless Steel", "Steel", "Aluminium", "Composite Materials"],
     applications: ["Cleaning", "Finishing", "Surface Preparation"],
     groups: ["Non-Woven Abrasives", "Unitized Products", "Cleaning Discs"],
-    accent: "#00b7a8",
+    accent: "#8A6C00",
   },
   {
     slug: "polishing-finishing",
@@ -62,7 +62,7 @@ export const categories: Category[] = [
     materials: ["Stainless Steel", "Aluminium", "Stone / Marble", "Marine Surfaces"],
     applications: ["Polishing", "Fine Finishing"],
     groups: ["Polishing Compounds", "Polishing Pads", "Finishing Accessories"],
-    accent: "#9b7cff",
+    accent: "#8A6C00",
   },
   {
     slug: "brushes-deburring",
@@ -75,7 +75,7 @@ export const categories: Category[] = [
     materials: ["Steel", "Stainless Steel", "Aluminium"],
     applications: ["Deburring", "Cleaning", "Weld finishing"],
     groups: ["Wire Brushes", "Technical Brushes", "Carbide Burrs"],
-    accent: "#ff8a3d",
+    accent: "#8A6C00",
   },
   {
     slug: "stone-glass",
@@ -88,7 +88,7 @@ export const categories: Category[] = [
     materials: ["Stone / Marble", "Glass"],
     applications: ["Cutting", "Grinding", "Polishing"],
     groups: ["Diamond Tools", "Stone Abrasives", "Glass Processing Products"],
-    accent: "#68a7b8",
+    accent: "#8A6C00",
   },
   {
     slug: "machines-accessories",
@@ -101,7 +101,7 @@ export const categories: Category[] = [
     materials: ["Multi-material"],
     applications: ["Sanding", "Grinding", "Polishing"],
     groups: ["Sanding Machines", "Backing Pads", "Holders", "Accessories"],
-    accent: "#7e8a94",
+    accent: "#6B6B6B",
   },
   {
     slug: "special-solutions",
@@ -114,6 +114,6 @@ export const categories: Category[] = [
     materials: ["Application-specific"],
     applications: ["Custom Production", "Process Optimisation"],
     groups: ["Custom Belts", "Custom Discs", "Special Dimensions"],
-    accent: "#ff6b2c",
+    accent: "#8A6C00",
   },
 ];

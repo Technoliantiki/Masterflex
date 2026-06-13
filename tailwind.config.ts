@@ -8,12 +8,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        carbon: "#080c10",
-        graphite: "#10171d",
-        steel: "#73808b",
-        signal: "#00d4ff",
-        flare: "#ff6b2c",
-        chalk: "#f3f5f4",
+        carbon: "var(--color-black)",
+        graphite: "var(--color-graphite)",
+        industrial: "var(--color-industrial)",
+        steel: "var(--color-medium-gray)",
+        signal: "var(--color-yellow)",
+        flare: "var(--color-gold)",
+        chalk: "var(--color-light-gray)",
+        border: "var(--color-border)",
+        softyellow: "var(--color-soft-yellow)",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],
