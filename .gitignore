@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+/.npm-cache
+
+# next.js
+/.next
+/out
+
+# local QA tooling and screenshots
+/.runtime
+/.pw-browsers
+/masterflex-*.png
+
+# vercel
+/.vercel
+
+# production
+/build
+/dist
+
+# local environment files
+.env*
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# logs
+*.log
+server.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
