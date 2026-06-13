@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Download } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 
@@ -6,9 +7,7 @@ export function HeroSection({ locale }: { locale: Locale }) {
   const en = locale === "en";
   return (
     <section className="industrial-glow noise relative min-h-[760px] overflow-hidden border-b border-white/10">
-      <div className="disc-visual hidden lg:block" aria-hidden="true" />
-      <div className="spark hidden lg:block" aria-hidden="true" />
-      <div className="container-wide relative z-10 flex min-h-[760px] items-center py-24">
+      <div className="container-wide relative z-10 grid min-h-[760px] items-center gap-10 py-20 lg:grid-cols-[minmax(0,1.12fr)_minmax(420px,.88fr)] lg:py-24">
         <div className="max-w-4xl">
           <div className="eyebrow">{en ? "Industrial abrasive systems" : "Βιομηχανικά συστήματα λείανσης"}</div>
           <h1 className="display-title max-w-4xl">
@@ -38,6 +37,16 @@ export function HeroSection({ locale }: { locale: Locale }) {
               </div>
             ))}
           </div>
+        </div>
+        <div className="hero-visual" aria-hidden="true">
+          <Image
+            src="/images/hero-orange-flap-disc.png"
+            alt="Orange abrasive flap disc for industrial grinding and finishing"
+            width={1254}
+            height={1254}
+            priority
+            className="hero-disc-image"
+          />
         </div>
       </div>
     </section>
