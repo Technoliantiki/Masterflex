@@ -8,9 +8,9 @@ export function BrandLogo({
   priority?: boolean;
 }) {
   return (
-    <span className={`inline-flex border border-border/60 bg-white p-1 ${className}`}>
+    <span className={`inline-flex ${className}`}>
       <Image
-        src="/images/brand/masterflex-logo.png"
+        src="/images/brand/masterflex-logo-dark.png"
         alt="Masterflex Tools since 1975"
         width={1145}
         height={312}

@@ -25,7 +25,7 @@ export function Header({ locale }: { locale: Locale }) {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-carbon/90 backdrop-blur-xl">
       <div className="container-wide flex h-20 items-center justify-between">
         <Link href={`/${locale}`} aria-label="Masterflex home">
-          <BrandLogo priority className="h-11 sm:h-12" />
+          <BrandLogo priority className="h-14 sm:h-16" />
         </Link>
         <nav className="hidden items-center gap-6 xl:flex">
           {links.map(([href, label]) => (
