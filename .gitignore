@@ -11,6 +11,7 @@
 /.pw-browsers
 /masterflex-*.png
 /theme-*.png
+/hero-*.png
 
 # vercel
 /.vercel
